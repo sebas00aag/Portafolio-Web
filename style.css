@@ -106,9 +106,9 @@ section{
     text-align: center;
 }
 
-.favicon {
-    width: 5rem;
-    height: 5rem;
+.header .favicon {
+    width: 10rem;
+    height: 10rem;
     border-radius: 100%;
 }
 .header .logo{
