@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<body>
+<div class="cursor-1"></div>
+<div class="cursor-2"> </div>
+<div id="menu-bars" class="fas fa-bars"></div>
+<!-- header section start -->
+<section class="header" id="header">
+<a href="#" class="logo"> <span>Sebastián</span>Arrieta</a>
+<div class="language-switch">
+    <button id="lang-es" class="lang-btn active">ES</button>
+    <button id="lang-en" class="lang-btn">EN</button>
+</div>
+
+<nav class="navbar">
+    <a class="Navhome" href="#home">Home</a>
+    <a class="Navabout" href="#about">About</a>
+    <a class="Navprojects" href="#proyects">Projects</a>
+    <a class="Navcontact" href="#contact">Contact Me</a>
+</nav>
+
+<div class="follow">
+    <a href="https://linkedin.com/in/sebastián-arrieta" class="fab fa-linkedin"></a>
+    <a href="https://github.com/sebas00aag" class="fab fa-github"></a>
+    <a href="https://wa.me/50689924871" target="_blank" class="fab fa-whatsapp"></a>
+
+</div>
+</section>
+<!-- header section end -->
+
+
+<!-- home section start -->
+<section class="home" id="home">
+    <div class="content">
+        <span class="hi"> Hello,</span>
+        <h3> I am <span> Sebastián Arrieta</span></h3>
+        <p class="info"> Software Developer</p>
+
+        <div class="imagen">
+            <img class="imagenLogo" src="img/logoSAAG.png" alt="Logo Empresa">
+        </div>
+        <a href="#about" class="btn">About Me</a>
+    </div>
+    <div class="image">
+        <img src="img/1image.png" alt="image representing myself">
+    </div>
+</section>
+<!-- home section end -->
+
+
+<!-- about section start -->
+<section class="about" id="about">
+<br><br><br><br><br><br><br>
+<h1 class="heading"> About <span>Me</span></h1>
+<br><br><br>
+<div class="row-1">
+    <div class="image tarjeta">
+        <img src="img/2image.png" alt="image representing myself">
+    </div>
+    <div class="content tarjeta">
+        <h3>My Name Is Sebastián Arrieta Guzmán.</h3>
+        <p class="text"> I'm a driven software developer student, I possess problem-solving skills and
+            also passion for creating efficient and user-friendly applications. With a
+            foundation in programming languages, design web pages, and the ability to
+            work independently, I am able to deliver high-quality results and adapt to
+            changing project requirements. I like being able to provide my services for a
+            better functioning of my environment, and I’m opened to new experiences that
+            help me improve my own skills.
+    </p>
+        <div class="box-container">
+            <div class="box tarjeta">
+                <p class="Age"> <span> Age : </span> 22 </p>
+                <p class="Gender"> <span> Gender : </span>Male </p>
+                <p class="Languages"> <span> Languages : </span> Spanish, English </p>
+                <p class="Work"> <span> Work : </span> Software Developer </p>
+            </div>
+            <div class="box tarjeta">
+                <p class="Phone"> <span> Phone : </span> +506 8992-4871 </p>
+                <p class="email"> <span> Email : </span> sebas00aag@gmail.com </p>
+                <p class="Country"> <span> Country : </span> Costa Rica </p>
+            </div>
+        </div>
+        <a href="https://drive.google.com/file/d/1EKx-Dn-k7c1fDd2lwj0bzEQpVsLr3scf/view?usp=sharing"
+        class="btn">See My CV</a>
+    </div>
+</div>
+
+</section>
+<!-- about section end -->
+
+
+<!-- portfolio section start -->
+<section class="proyects" id="proyects">
+    <h1 class="heading"> My <span>Projects</span></h1>
+    <div class="box-container">
+        <!-- Project 1 -->
+        <div class="box">
+            <img src="img/HotelBook.png" alt="Hotel Booking Image">
+            <div class="project-info">
+                <h3>Hotel Booking Site</h3>
+                <p class="hotel">Platform for booking rooms, viewing availability, and managing reservations. Includes form validations and a responsive UI.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Firebase</span>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-link" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="box">
+            <img src="img/RPS.png" alt="Rock Paper Scissors Image">
+            <div class="project-info">
+                <h3>Rock Paper Scissors Game</h3>
+                <p class="RPS">A classic game with basic AI logic for the computer, animations, and persistent scoring using localStorage.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-link" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="box">
+            <img src="img/WeatherApp.png" alt="Weather App Image">
+            <div class="project-info">
+                <h3>Weather API</h3>
+                <p class="weatherapi">An app that fetches weather data via an API, displays the forecast, and allows users to search by city with an intuitive UI.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>OpenWeather</span>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-link" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="box">
+            <img src="img/TTT.png" alt="Tic Tac Toe Image">
+            <div class="project-info">
+                <h3>Tic Tac Toe Game</h3>
+                <p class="tictactoe">Juego de Tic Tac Toe con lógica de ganador, animaciones en las celdas y opción de dos jugadores o contra la IA.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="icons">
+                    <a href="https://crfinance-g4bhcqd2bsfwaygy.eastus-01.azurewebsites.net/" class="fas fa-link" target="_blank" rel="noopener noreferrer" aria-label="Abrir Tic Tac Toe"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- portfolio section end -->
+
+
+
+<!-- contact section start -->
+<section class="contact" id="contact">
+    <h1 class="heading">contact <span> me</span></h1>
+
+    <div class="icons-container">
+        <div class="icons tarjeta">
+            <i class="fas fa-envelope"></i>
+            <h3 class="myemail">My Email</h3>
+            <p class="email" id="email">sebas00aag@gmail.com</p>
+            <button id="copy-email-button" class="btn">Copy Email</button>
+        </div>
+        <div class="icons tarjeta">
+            <i class="fas fa-phone"></i>
+            <h3 class="mynumber">My Number</h3>
+            <p class="phone" id="phone">+506 8992-4871</p>
+            <button id="copy-phone-button" class="btn">Copy Phone</button>
+        </div>
+        <div class="icons tarjeta">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3 class="myaddress">My Address</h3>
+            <p>El Guarco, Cartago, Costa Rica</p>
+        </div>
+    </div>
+
+    <!-- Nuevo formulario -->
+    <div class="contact-form tarjeta">
+        <h3>Send me a message</h3>
+        <form id="contactForm">
+            <input type="text" id="name" class="box" placeholder="Your Name">
+            <input type="email" id="emailInput" class="box" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="form-success" class="success-message"></p>
+        </form>
+    </div>
+</section>
+<!-- contact section end -->
+
+
+<!-- footer section -->
+<footer class="footer">Fully Responsive Personal Portfolio || 2025 </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
